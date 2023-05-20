@@ -1,12 +1,13 @@
 [package]
-name = "rs_merkle"
-version = "1.4.0"
-authors = ["Anton Suprunchuk <anton.suprunchuk@gmail.com>"]
+name = "ex3-merkle"
+version = "0.15.0"
+license = "MIT"
+authors = ["Deland Labs Core Dev <delandlabs@gmail.com>"]
+edition = "2021"
 description = "The most advanced Merkle Tree library for Rust. Supports creating and verifying proofs, multi-proofs, as well as advanced features, such as tree diffs, transactional changes, and rollbacks"
-edition = "2018"
-license = "Apache-2.0/MIT"
-repository = "https://github.com/antouhou/rs-merkle"
-documentation = "https://docs.rs/rs_merkle/"
+
+homepage = "https://github.com/Deland-Labs/rs-merkle"
+repository = "https://github.com/Deland-Labs/rs-merkle"
 readme = "README.md"
 keywords = ["merkle", "tree", "proof", "hash", "multiproof",]
 exclude = ["/ci/*", "/scripts/*", "/.github/*", "/bors.toml"]
